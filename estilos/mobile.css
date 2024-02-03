@@ -62,3 +62,14 @@ div#formulario{
     display: block;
     padding: 10px;
 }
+
+
+footer{
+    background-color: #5f2c82;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-top: solid 5px #49a09d;
+    padding: 5px;
+    letter-spacing: 5px;
+}
