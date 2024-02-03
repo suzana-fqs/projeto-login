@@ -50,7 +50,7 @@ div#imagem{
     background: url(../imagem/background\ imagem\ moblile.jpg);
     height: 200px;
     background-position: center center;
-    background-size: 125%;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
