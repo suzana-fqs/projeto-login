@@ -41,6 +41,9 @@ section#login{
     overflow: hidden;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.436);
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
     
 
 }
