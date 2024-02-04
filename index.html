@@ -8,20 +8,40 @@
     <link rel="stylesheet" href="estilos/mediaquery.css" 
     media="screen">
     <link rel="stylesheet" href="estilos/mobile.landscape" media="screen and (oriatation:landscape)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <main>
         
         <section id="login">
             <div id="imagem">
-                <!--foto-->
+                <!--foto-->   
             </div>
             <div id="formulario">
                 <h2>Login</h2>
                 <p>Bem-Vindo(a)!
                     <br>Preecha suas informações para prosseguir com  sua tela de configuração.</p>
-            
             </div>
+            <form action="login.php" method="post" autocomplete="on">
+                <div class="campo">
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                    <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" required autocomplete="email">
+                    <label for="ilogin">Login</label>
+                </div>
+                <div class="campo">
+                    <span class="material-symbols-outlined">
+                        vpn_key
+                        </span>
+                    <input type="password" minlength="8" maxlength="12" required placeholder="Sua senha" autocomplete="current-password">
+                    <label for="isenha">Senha</label>
+                </div>
+                <input type="submit" value="Entrar">
+                <a href="esqueci.html"> Esqueci minha Senha     <span class="material-symbols-outlined">
+                    mail </span>
+                </a>
+            </form>
         </section>
     
     </main>
