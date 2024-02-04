@@ -93,7 +93,8 @@ div.campo > ::placeholder{
 }
 
 div.campo > label{
-    color: rgba(250, 235, 215, 0);
+    display: none;
+
 }
 
 span.material-symbols-outlined{
@@ -116,6 +117,7 @@ input#botao:hover{
     background-color: rgba(240, 248, 255, 0);
     border: solid 3px #5f2c82;
     color: #5f2c82;
+    cursor: pointer;
  }
 
  form > a{
@@ -126,4 +128,5 @@ input#botao:hover{
 
  form > a:hover{
     color: #5f2c82;
+    cursor: pointer;
 }
