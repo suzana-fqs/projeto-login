@@ -6,3 +6,7 @@ Section#login{
     width: 600px;
     height: 500px;
 }
+
+input#botao{
+    width: 95%;
+}
