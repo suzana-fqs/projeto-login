@@ -89,8 +89,6 @@ div.campo > input{
     height: 100%;
     transform: translateY(-11px);
     border-radius: 0 0 15px 0;
-   
-
 }
 
 div.campo > ::placeholder{
@@ -100,7 +98,6 @@ div.campo > ::placeholder{
 
 div.campo > label{
     display: none;
-
 }
 
 span.material-symbols-outlined{
@@ -112,8 +109,8 @@ span.material-symbols-outlined{
    border-radius: 15px 0 0 0;
 }
 
- span#esquecisenha     {
-    background-color: white;
+ span#esquecisenha{
+    background-color: rgb(255, 255, 255);
     color: #5f2c82;
     transform: translateY(5px);
     margin-top: 15px;
@@ -146,7 +143,6 @@ input#botao:hover{
     color: #49a09d;
     font-size: .8em;
     width: 75%;
-    
  }
 
  form > a:hover{
